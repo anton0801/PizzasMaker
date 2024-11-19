@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Tomcat.ttf</string>
+	</array>
+    
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>processing</string>
+        <string>remote-notification</string>
+    </array>
+    
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>pinkycook</string>
+            </array>
+        </dict>
+    </array>
+    
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.dsmadkjas.dnsajkdas.backgroundProccess</string>
+    </array>
+    
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Let access camera to this app.</string>
+    <key>NSUserNotificationUsageDescription</key>
+    <string>We send notifications to keep our users informed about updates and upcoming events.</string>
+</dict>
+</plist>
